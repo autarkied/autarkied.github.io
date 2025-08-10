@@ -1,0 +1,70 @@
+baseurl = "https://www.autarkied.github.io"
+title = "autarkied"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+
+[pagination]
+pagerSize = 6
+
+[services]
+#[services.disqus]
+#shortname = "yourdiscussshortname"
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+	#author = "autarkied"
+	info = "Someone from Earth interested in computer science and computer engineering."
+	description = "An autarkied garden for myself."
+	keywords = "blog,developer,personal"
+	avatarurl = "https://avatars.githubusercontent.com/autarkied"
+	#gravatar = "john.doe@example.com"
+
+	#faviconSVG = ""
+	favicon_32 = "https://avatars.githubusercontent.com/autarkied?s=32"
+	favicon_16 = "https://avatars.githubusercontent.com/autarkied?s=16"
+
+	since = 2025
+
+	enableTwemoji = true
+
+	colorScheme = "dark"
+	hidecolorschemetoggle = true
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+	category = "categories"
+	series = "series"
+	tag = "tags"
+	author = "authors"
+
+# Social links
+[[params.social]]
+	name = "GitHub"
+	icon = "fa-brands fa-github fa-2x"
+	weight = 1
+	url = "https://github.com/autarkied"
+
+# Menu links
+[[menu.main]]
+	name = "Blog"
+	weight = 1
+	url  = "posts/"
+[[menu.main]]
+	name = "Series"
+	weight = 1
+	url  = "series/"
+[[menu.main]]
+	name = "Categories"
+	weight = 1
+	url  = "categories/"
+[[menu.main]]
+	name = "About"
+	weight = 2
+	url = "about/"
