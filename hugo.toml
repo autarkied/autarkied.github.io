@@ -38,6 +38,10 @@ style = "github-dark"
   # customSCSS = ["scss/custom.scss"]
   # customJS = ["js/custom.js"]
 
+[caches]
+	[caches.images]
+	dir = ':cacheDir/images'
+
 [taxonomies]
 	category = "categories"
 	series = "series"
